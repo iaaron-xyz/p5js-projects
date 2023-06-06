@@ -5,11 +5,13 @@ function setup() {
   createCanvas(800, 400);
   noStroke();
   colorMode(HSB, width, height, 100);
+  frameRate(30);
 }
 
 function draw() {
   stepX = mouseX + 2;
   stepY = mouseY + 2;
+  console.log("hola");
 
   for (var gridY = 0; gridY < height; gridY += stepY) {
     for (var gridX = 0; gridX < width; gridX += stepX) {
@@ -20,5 +22,5 @@ function draw() {
 }
 
 function keyPressed() {
-  if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+  if (key == 's' || key == 'S') saveCanvas("images", 'png');
 }
