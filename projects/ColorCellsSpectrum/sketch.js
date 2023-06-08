@@ -2,7 +2,7 @@ var stepX;
 var stepY;
 
 function setup() {
-  createCanvas(800, 400);
+  createCanvas(windowWidth, windowHeight);
   noStroke();
   colorMode(HSB, width, height, 100);
   frameRate(30);
