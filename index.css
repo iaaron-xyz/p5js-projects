@@ -12,3 +12,10 @@ canvas {
     justify-content: center;
     align-items: center;
 } */
+
+.body {
+    padding: 1rem;
+}
+.body h1 {
+    text-align: center;
+}
