@@ -29,6 +29,11 @@ const projects = [
     cover: "",
     path: "projects/doppler",
   },
+  {
+    title: "Random Dots Distribution",
+    cover: "",
+    path: "projects/randomSampleUniformDist",
+  }
 ]
 
 const grid = document.querySelector('.project-grid');
